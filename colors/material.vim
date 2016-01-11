@@ -62,6 +62,7 @@ hi ModeMsg        guifg=#F9F9F9 guibg=#192224 guisp=#192224 gui=bold ctermfg=15 
 hi CursorColumn   guifg=NONE guibg=#222E30 guisp=#222E30 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi Define         guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi Function       guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
+hi pythonFunction guifg=#5d75a2 guibg=#333333 guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
 hi FoldColumn     guifg=#192224 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=248 cterm=NONE
 hi PreProc        guifg=#c1e88d guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
 hi Visual         guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=NONE ctermfg=235 ctermbg=189 cterm=NONE
@@ -91,6 +92,7 @@ hi Underlined     guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermf
 hi DiffAdd        guifg=NONE guibg=#193224 guisp=#193224 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi TabLine        guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
 hi cursorim       guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
+hi ColorColumn    term=reverse ctermbg=238 guibg=#4A4A4A
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
 "hi Ignore -- no settings --
